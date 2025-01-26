@@ -26,6 +26,7 @@ def load_data():
     df = pd.read_csv(archivo)
     df['time'] = pd.to_datetime(df['time'])
     df.set_index('time', inplace=True)
+    ## Comentario para commit
     return df
 
 # Cargar datos

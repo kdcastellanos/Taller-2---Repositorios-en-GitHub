@@ -17,7 +17,7 @@ app.title = "Dashboard energia"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
-
+# se realiza cambio localmente en la rama main
 # este es un cambio en la rama kevin
 # Load data from csv
 def load_data():
